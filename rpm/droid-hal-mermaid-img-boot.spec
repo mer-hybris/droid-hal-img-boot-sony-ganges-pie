@@ -4,6 +4,7 @@
 
 %define root_part_label userdata
 %define factory_part_label system_b
+%define bcb_part_path /dev/mmcblk0p60
 
 %define display_brightness_path /sys/class/backlight/panel0-backlight/brightness
 %define display_brightness 1024
